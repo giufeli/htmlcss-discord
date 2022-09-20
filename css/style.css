@@ -4,67 +4,62 @@
     box-sizing: border-box;
 }
 
+header{
+    background-color: rgba(45,99,235,255);
+ 
+}
+
 body{
     background-color: rgba(45,99,235,255);
 }
 
-.container-header{
-    height: 700px;
-}
-
-main{
+main, footer{
     background-color: gold;
-    height: 5000px;
     width: 1950px;
     margin-left: auto;
     margin-right: auto;
 }
 
-.banner{
-    background-color: red;
-    height: 700px;
-    width: 1950px;
-    background-size: cover;
-    margin-left: auto;
-    margin-right: auto;
+
+li{
+    list-style: none;
+}
+
+
+.header-banner{
+    background-image: url("../img/jumbo.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position-x: center;
+	background-position-y: bottom;
+    padding-top: 200px;
+    color: beige;
 
 }
 
+ul{
+    display: flex;
+    justify-content: space-around;
+}
 
 .nav-section{
-    height: 100px;
-    display: flex;
-    justify-content: space-between;
+    background-color: rgba(45,99,235,255);
+    max-width: 2000px;
+    height: 5em;
+    margin: 0 auto;
 }
 
 
-.logo{
-    background-color: orange;
-    height: 100px;
-    flex-basis: 20%;
-}
-
-.main-nav{
-    background-color: rgb(255, 0, 225);
-    height: 100px;
-    flex-basis: 60%;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-}
 
 .botton-accedi{
     background-color: rgb(123, 255, 0);
-    height: 100px;
-    flex-basis: 20%;
+    padding: 3em, 3em;
+    border-radius: 10em;   
 }
 
 
-.main-text{
-    background-color: aqua;
-    height: 300px;
-    width:  1100px;
-    margin-top: 200px;
+h1{
+    padding-top: 200px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -73,6 +68,7 @@ main{
 
 .description, .main-botton{
     padding-top: 50px;
+    text-align: center;
 }
 
 .main-botton{
@@ -83,8 +79,9 @@ main{
     justify-content: space-between;
 }
 
-a{
-    background-color: brown;
+a{  
+   
+    text-decoration: none;
 }
 
 .container-main1, .container-main2, .container-main3{
@@ -108,13 +105,12 @@ a{
 
 .container-main4{
     background-color: rgb(84, 83, 83);
-    height: 1200px;
+    
     padding-left: 230px;
     padding-right: 230px;
     padding-top: 50px;
     padding-bottom: 100px;
-    display: flex;
-    justify-content: space-between;
+   
 }
 
 .box1, .box2, .box3{
@@ -129,7 +125,80 @@ a{
 }
 
 
+.testo-main4{
+    height: 100px;
+    background-color: blue;
+    margin-top: 50px;
+}
 
+.immagine-main4{
+    background-image: url(../img/item4-big.svg);
+    background-size: cover;
+    width:  1100px;
+    height: 690px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.end-main4{
+    height: 100px;
+    padding-top: 50px;
+    background-color: blue;
+}
+
+.bottone-main4{
+    font-size:60px;
+    text-align: center;
+    padding-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+footer{
+    width: 1950px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.flexbox{
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    
+}
+
+.column1{
+    background-color: rgb(238, 238, 238);
+    flex-basis: 35%;
+
+      
+}
+
+.column2{
+    background-color: rgb(214, 18, 18);
+    flex-basis: 15%;
+      
+}
+
+.column3{
+    background-color: rgb(56, 159, 18);
+    flex-basis: 15%;
+      
+}
+
+.column4{
+    background-color: rgb(182, 6, 138);
+    flex-basis: 15%;
+      
+}
+
+.column5{
+    background-color: rgb(27, 7, 93);
+    flex-basis: 15%;
+
+}
 
 
 
