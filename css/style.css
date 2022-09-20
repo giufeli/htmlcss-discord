@@ -14,7 +14,7 @@ header{
 }
 
 body{
-    background-color: rgba(45,99,235,255);
+    background-color: white(45,99,235,255);
 }
 
 main, footer{
@@ -228,19 +228,19 @@ a{
 
 footer{
     background-color: rgba(35,39,42,255);
-    width: 1950px;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
 }
 
 
 .flexbox{
+    background-color: rgba(35,39,42,255);
     display: flex;
-    width: 100%;
-    height: 750px;
+    width: 1950px;
     padding: 80px;
     flex-wrap: nowrap; 
-    text-align: left;
+    justify-content: right;
     margin-left: auto;
     margin-right: auto;
     
