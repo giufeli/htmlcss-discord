@@ -3,14 +3,10 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
-    
-
 }
 
 header{
     background-color: rgba(45,99,235,255);
-    
- 
 }
 
 body{
@@ -52,7 +48,6 @@ ul{
     display: flex;
     justify-content: space-around;
     padding-top: 30px;
-    
 }
 
 .nav-section{
@@ -85,7 +80,6 @@ a{
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-   
 }
 
 .scarica-mac-main1{
@@ -95,7 +89,6 @@ a{
     font-size:20px;
     padding: 0.7em 0.8em;
     margin-right: 30px;
-    
 }
 
 .scarica-mac-main2{
@@ -134,8 +127,6 @@ a{
     padding: 0.3em 0.8em;
 }
 
-
-
 a{  
     text-decoration: none;
 }
@@ -154,13 +145,11 @@ a{
     padding-right: 230px;
     padding-top: 50px;
     padding-bottom: 100px;
-   
 }
 
 .box1, .box2, .box3{
     flex-basis: 40%;
     text-align: center;
-    
 }
 
 .foto-box1, .foto-box2, .foto-box3{
@@ -185,9 +174,6 @@ a{
 .container-main4 .box-textbig, .container-main4 .box-textsmall{
     text-align: center;
 }
-
-
-
 
 .testo-main4{
     height: 100px;
@@ -243,14 +229,11 @@ footer{
     justify-content: right;
     margin-left: auto;
     margin-right: auto;
-    
 }
 
 .column1{
     background-color: rgba(35,39,42,255);
     flex-basis: 35%;
-
-      
 }
 
 .column2{
@@ -258,29 +241,23 @@ footer{
     flex-basis: 15%;   
 }
 
-
-
 .column3{
     background-color: rgba(35,39,42,255);
-    flex-basis: 15%;
-      
+    flex-basis: 15%;    
 }
 
 .column4{
     background-color: rgba(35,39,42,255);
-    flex-basis: 15%;
-      
+    flex-basis: 15%;     
 }
 
 .column5{
     background-color: rgba(35,39,42,255);
     flex-basis: 15%;
-
 }
 
 .img-container{
-    background-image: url(../img/stars.svg);
-   
+    background-image: url(../img/stars.svg);  
     background-size: cover;
     width: 650px;
     height: 60px;
@@ -309,8 +286,7 @@ footer{
 .ita-img{
     display: inline-block;
     vertical-align: middle;
-    padding-right: 10px; 
-    
+    padding-right: 10px;  
 }
 .ita{
     display: inline-block;
@@ -320,15 +296,13 @@ footer{
 }
 
 .social-container{
-    padding-top: 35px;
-    
+    padding-top: 35px;  
 }
 
 .tweeter{
     color: white;
     font-size: 40px;
     display: inline-block;
-
 }
 
 .instagram{
