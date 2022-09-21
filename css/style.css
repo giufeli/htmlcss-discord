@@ -27,10 +27,31 @@ ul{
     padding-top: 40px;
 }
 
+.nav-section{
+    position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+	overflow-x: hidden;
+    background-color: rgba(45,99,235,255);
+    height: 5em;
+    margin: 0 auto;
+    font-weight: 700;
+    font-size: 20px;
+    justify-items: center;
+
+}  
+
+.nav-ul{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+    
+}
+
 .nav-ul li{
     list-style: none;
 }
-
 
 .header-banner{
     background-image: url("../img/jumbo.png");
@@ -42,21 +63,6 @@ ul{
     color: white;
     font-weight: 700;
 }
-
-.nav-ul{
-    display: flex;
-    justify-content: space-around;
-    padding-top: 30px;
-}
-
-.nav-section{
-    background-color: rgba(45,99,235,255);
-    max-width: 2000px;
-    height: 5em;
-    margin: 0 auto;
-    font-weight: 700;
-    font-size: 20px;
-}   
 
 a{
     color: white;
