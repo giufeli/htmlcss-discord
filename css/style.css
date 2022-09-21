@@ -13,11 +13,10 @@ body{
     background-color: white(45,99,235,255);
 }
 
-main, footer{
+main{
     background-color: white;
-    width: 1950px;
-    margin-left: auto;
-    margin-right: auto;
+    max-width: 1950px;
+    margin: 0 auto;
 }
 
 ul{
@@ -65,7 +64,13 @@ a{
 
 .botton-accedi{
     width: 100px;
+    margin-left: 200px;
 }
+
+.botton-logo{
+    margin-right: 200px;
+}
+
 
 .log-in{
     background-color: white;
@@ -137,6 +142,7 @@ a{
     padding-left:300px ;
     padding-right:300px ;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
@@ -231,29 +237,14 @@ footer{
     margin-right: auto;
 }
 
-.column1{
+.column1,{
     background-color: rgba(35,39,42,255);
     flex-basis: 35%;
 }
 
-.column2{
+.column2, .column3 , .column4, .column5{
     background-color: rgba(35,39,42,255);
     flex-basis: 15%;   
-}
-
-.column3{
-    background-color: rgba(35,39,42,255);
-    flex-basis: 15%;    
-}
-
-.column4{
-    background-color: rgba(35,39,42,255);
-    flex-basis: 15%;     
-}
-
-.column5{
-    background-color: rgba(35,39,42,255);
-    flex-basis: 15%;
 }
 
 .img-container{
@@ -305,21 +296,7 @@ footer{
     display: inline-block;
 }
 
-.instagram{
-    color: white;
-    font-size: 40px;
-    display: inline-block;
-    padding-left: 20px;
-}
-
-.facebook{
-    color: white;
-    font-size: 40px;
-    display: inline-block;
-    padding-left: 20px;
-}
-
-.youtube{
+.instagram, .facebook, .youtube{
     color: white;
     font-size: 40px;
     display: inline-block;
